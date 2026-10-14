@@ -1,4 +1,4 @@
-# 📋 Historial de Cambios (Changelog)
+# 📋 Historial de Cambios
 
 ## [2.0.0] - 2026-10-14
 ### ⚡ Nuevo: Sistema de Desempate («Duelo Decisivo»)
