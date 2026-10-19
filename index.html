@@ -7,8 +7,7 @@
   <title>Juegos Jóvenes IBB</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caudex:wght@400;700&family=Rozha+One&display=swap">
   <style>
-  <style>
-    :root{--bg:#10172d;--panel:#192442;--ink:#f6f8ff;--muted:#c9d5f0;--line:rgba(255,255,255,.13);--gold:#ffcf5a;--mint:#83e4d0}
+    :root{--bg:#10172d;--panel:#192442;--ink:#f6f8ff;--muted:#c9d5f0;--line:rgba(255,255,255,.12);--gold:#ffcf5a;--mint:#83e4d0}
     *{box-sizing:border-box}
     html{color-scheme:dark}
     body{margin:0;min-height:100vh;color:var(--ink);font:16px/1.45 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;background:radial-gradient(circle at 7% -5%,#3a4c85 0,transparent 32rem),radial-gradient(circle at 95% 25%,#1d6b70 0,transparent 33rem),var(--bg)}
@@ -126,7 +125,7 @@
     .timer-progress{height:7px;overflow:hidden;margin-top:12px;border-radius:99px;background:rgba(255,255,255,.12);box-shadow:inset 0 1px 2px rgba(0,0,0,.25)}
     .timer-progress span{display:block;width:100%;height:100%;border-radius:inherit;background:linear-gradient(90deg,var(--mint),var(--gold));transition:none}
     .question-grid,.option-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:14px}
-    .question-card,.option-card{position:relative;overflow:hidden;padding:16px 18px;text-align:left;border:1px solid rgba(255,255,255,.15);border-radius:16px;background:rgba(8,16,40,.45);animation:cardIn .36s both;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
+    .question-card,.option-card{position:relative;overflow:hidden;padding:16px 18px;text-align:left;border:1px solid var(--line);border-radius:15px;background:rgba(5,12,31,.28);animation:cardIn .36s both;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
     .question-card:hover,.option-card:hover{transform:translateY(-2px);border-color:rgba(255,255,255,.28);box-shadow:0 8px 24px rgba(0,0,0,.22)}
     .question-card{color:var(--ink)}
     .question-card.active{border-color:var(--gold);box-shadow:0 0 0 2px rgba(255,207,90,.16)}
